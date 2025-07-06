@@ -307,6 +307,7 @@ export function PhotoGalleryModal({ isOpen, onClose }: PhotoGalleryModalProps) {
                         muted
                         autoPlay
                         loop
+                         playsInline
                         className="w-full h-full object-cover"
                       />
                     ) : (
